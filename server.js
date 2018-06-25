@@ -21,4 +21,4 @@ const server = new Server(function(client) {
     clientManager.addClient(client);
 });
 
-server.listen(80);
+server.listen(8080);
