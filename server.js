@@ -21,4 +21,4 @@ const server = new Server(function(client) {
     clientManager.addClient(client);
 });
 
-server.listen(3001);
+server.listen(80);
