@@ -1,6 +1,7 @@
 // MyGameServer.js
 const Server = require('patchwire').Server;
 const ClientManager = require('patchwire').ClientManager;
+const ip = require('ip');
 
 const clientManager = new ClientManager();
 
@@ -22,3 +23,5 @@ const server = new Server(function(client) {
 });
 
 server.listen(8080);
+
+console.log(ip.address());

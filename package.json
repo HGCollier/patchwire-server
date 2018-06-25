@@ -9,6 +9,7 @@
   "author": "Halden G. Collier",
   "license": "ISC",
   "dependencies": {
+    "ip": "^1.1.5",
     "patchwire": "^0.2.2"
   }
 }
